@@ -1,0 +1,17 @@
+{
+    "name": "pantheion/middleware",
+    "description": "Middleware",
+    "authors": [
+        {
+            "name": "Pedro Miguel",
+            "email": "pedro.aos19@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pantheion\\Middleware\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
