@@ -13,5 +13,8 @@
         }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "pantheion/http": "dev-master",
+        "pantheion/routing": "dev-master"
+    }
 }

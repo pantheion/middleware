@@ -2,7 +2,11 @@
 
 namespace Pantheion\Middleware;
 
-interface Middleware
+use Pantheion\Http\Request;
+
+abstract class Middleware
 {
-    public function run();
+    protected $except = [];
+
+    public abstract function run(Request $request, \Closure $next);
 }
