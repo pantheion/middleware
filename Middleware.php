@@ -6,7 +6,7 @@ use Pantheion\Http\Request;
 
 abstract class Middleware
 {
-    protected $except = [];
+    public $except = [];
 
     public abstract function run(Request $request, \Closure $next);
 }
